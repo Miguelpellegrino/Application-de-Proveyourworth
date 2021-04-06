@@ -17,11 +17,7 @@ def crearimagen(autenticacion):
         image = Image.open(image)
         draw = ImageDraw.Draw(image)
         draw.text((5,5), f"Miguel Armando Pellegrino Cardenas, \n miguelpellegrino2019@gmail.com \n Programador en Python",fill=(255,255,255,128))
-<<<<<<< HEAD:as.py
         image.save("foto.jpg","JPEG")
-=======
-        image.save("image.jpg","JPEG")
->>>>>>> a44ed8595d8f6665e193ed2b2a15515e4c33204f:code/create_img.py
     else:
         print("Fallo en la autenticacion de las URL")
 
